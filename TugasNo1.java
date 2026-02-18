@@ -10,8 +10,7 @@ public class TugasNo1{
         Scanner input = new Scanner(System.in);
         
         int a,b,c;
-        int jumlah,kurang,kali;
-        double bagi;
+        int jumlah,kurang,kali,bagi;
         
         System.out.print("Masukkan bilangan pertama: ");
         a= input.nextInt();
@@ -25,8 +24,7 @@ public class TugasNo1{
         jumlah = a+b+c;
         kurang = a-b-c;
         kali = a*b*c;
-
-        bagi = (double) a/b/c;
+        bagi = a/b/c;
         
         System.out.println("\nHasil Operasi: ");
         System.out.println("Penjumlahan = " + jumlah);
